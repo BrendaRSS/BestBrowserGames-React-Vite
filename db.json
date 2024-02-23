@@ -1,0 +1,62 @@
+{
+  "login": [
+    {
+      "id": "1",
+      "name": "Brenda Silva",
+      "password": "123"
+    },
+    {
+      "id": "2",
+      "name": "Matheus Barbosa",
+      "password": "1234"
+    },
+    {
+      "id": "f8b6",
+      "name": "teste@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "9f39",
+      "name": "teste@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "835c",
+      "name": "haa@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "6bd0",
+      "name": "haa@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "1806",
+      "name": "brendaR@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "b551",
+      "name": "haa@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "games":[
+    {
+      "id":1,
+      "Image":"",
+      "name":"",
+      "favorite":false,
+      "category":"",
+      "description":""
+    },
+    {
+      "id": 1,
+      "Image": "",
+      "name": "",
+      "favorite": false,
+      "category": "",
+      "description": ""
+    }
+  ]
+}

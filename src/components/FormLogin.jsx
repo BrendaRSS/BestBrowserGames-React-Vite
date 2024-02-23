@@ -1,16 +1,30 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import styled from "styled-components"
+import axios from "axios";
 
 export default function FormLogin(){
     const [email, setEmail] = useState();
     const [password, setPassword] = useState();
+    const navigate = useNavigate();
 
     function submitData(event){
         event.preventDefault();
 
-        console.log(email);
-        console.log(password);
+        axios
+          .post('http://localhost:3000/login', {
+            name: email,
+            password: password,
+          })
+          .then((response) => {
+            console.log(response.data);
+            setEmail("");
+            setPassword("");
+            navigate("/home");
+          })
+          .catch((error) => {
+            console.error(error);
+          });
     }
 
     return (
@@ -22,6 +36,7 @@ export default function FormLogin(){
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             type="email"
+            autocomplete="off"
             required
           />
           <InputForm
@@ -29,6 +44,7 @@ export default function FormLogin(){
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             type="password"
+            autocomplete="off"
             required
           />
           <ButtonSubmit type="submit">Entrar</ButtonSubmit>
@@ -87,6 +103,13 @@ const InputForm = styled.input`
     color: #b80768;
     font-size: 14px;
     font-weight: 700;
+  }
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    -webkit-text-fill-color: #52022e !important;
   }
 `;
 const ButtonSubmit = styled.button`
