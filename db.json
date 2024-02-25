@@ -39,19 +39,29 @@
       "id": "b551",
       "name": "haa@gmail.com",
       "password": "1234"
-    }
-  ],
-  "games":[
-    {
-      "id":1,
-      "Image":"",
-      "name":"",
-      "favorite":false,
-      "category":"",
-      "description":""
     },
     {
-      "id": 1,
+      "id": "c64f",
+      "name": "haa@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "3d28",
+      "name": "haa@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "games": [
+    {
+      "id": "1",
+      "Image": "",
+      "name": "",
+      "favorite": false,
+      "category": "",
+      "description": ""
+    },
+    {
+      "id": "1",
       "Image": "",
       "name": "",
       "favorite": false,

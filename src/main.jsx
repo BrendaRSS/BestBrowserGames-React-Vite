@@ -5,6 +5,7 @@ import LoginPage from './pages/LoginPage.jsx';
 import GlobalStyle from './assets/style/GlobalStyle.jsx';
 import HomePage from './pages/HomePage.jsx';
 import GamesPage from './pages/GamesPage.jsx';
+import FavoritesPage from './pages/FavoritesPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
         path:'games',
         element:<GamesPage/>
       },
+      {
+        path:'favorites',
+        element:<FavoritesPage/>
+      }
     ]
   }
 ]);

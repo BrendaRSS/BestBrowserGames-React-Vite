@@ -8,9 +8,11 @@ export default function Header(){
         <Line></Line>
         <ContainerPages>
           <Link>
-            <NavLink to="/home/games">Games</NavLink>
+            <NavLink to="/home/games">Início</NavLink>
           </Link>
-          <Link>Favorites</Link>
+          <Link>
+            <NavLink to="/home/favorites">Favorites</NavLink>
+          </Link>
           <Link>Add Game</Link>
           <Link>Filter</Link>
         </ContainerPages>
