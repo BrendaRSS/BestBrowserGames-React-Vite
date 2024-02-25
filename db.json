@@ -49,24 +49,34 @@
       "id": "3d28",
       "name": "haa@gmail.com",
       "password": "1234"
+    },
+    {
+      "id": "46ac",
+      "name": "haa@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "ca0d",
+      "name": "haa@gmail.com",
+      "password": "1234"
     }
   ],
   "games": [
     {
       "id": "1",
-      "Image": "",
-      "name": "",
+      "image": "https://www.shorturl.at/img/shorturl-icon.png",
+      "name": "Jodo do bob esponja 1",
       "favorite": false,
-      "category": "",
-      "description": ""
+      "category": "corrida",
+      "description": "você disputa corridas"
     },
     {
-      "id": "1",
-      "Image": "",
-      "name": "",
+      "id": "2",
+      "image": "https://www.shorturl.at/img/shorturl-icon.png",
+      "name": "Jodo do bob esponja 2",
       "favorite": false,
-      "category": "",
-      "description": ""
+      "category": "cozinhar",
+      "description": "você faz comidas"
     }
   ]
 }

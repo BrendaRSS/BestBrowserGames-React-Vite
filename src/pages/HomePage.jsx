@@ -5,7 +5,7 @@ import GamesPage from "./GamesPage";
 
 export default function HomePage(){
   const location = useLocation();
-  const showGamePage = location.pathname === '/home/games';
+  const showGamePage = location.pathname === '/home';
 
     return (
       <Container>

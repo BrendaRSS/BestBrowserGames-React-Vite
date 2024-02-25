@@ -13,8 +13,12 @@ export default function Header(){
           <Link>
             <NavLink to="/home/favorites">Favorites</NavLink>
           </Link>
-          <Link>Add Game</Link>
-          <Link>Filter</Link>
+          <Link>
+            <NavLink to="/home/favorites">Add Game</NavLink>
+          </Link>
+          <Link>
+            <NavLink to="/home/favorites">Filter Game</NavLink>
+          </Link>
         </ContainerPages>
       </HeaderComponent>
     );
