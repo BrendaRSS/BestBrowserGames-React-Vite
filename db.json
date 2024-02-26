@@ -66,7 +66,7 @@
       "id": "1",
       "image": "https://www.shorturl.at/img/shorturl-icon.png",
       "name": "Jodo do bob esponja 1",
-      "favorite": false,
+      "favorite": true,
       "category": "corrida",
       "description": "você disputa corridas"
     },

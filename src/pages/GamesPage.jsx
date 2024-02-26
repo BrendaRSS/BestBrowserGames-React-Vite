@@ -22,7 +22,7 @@ export default function GamesPage(){
       <ContainerGamesPage>
         {cards ? 
         cards.map((card, index) => (
-            <Card card={card} key={card.id} />
+            <Card card={card} setCards={setCards} key={card.id} />
         ))
         :
         <h1>Carregando..</h1>}
